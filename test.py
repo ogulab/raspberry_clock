@@ -12,3 +12,9 @@ for x in xrange(5):
     time.sleep(2)
 GPIO.cleanup()
 
+
+def getTime():
+    n=time.strftime('%I')+time.strftime('%M')
+    timeList=list(n)
+    return timeList
+    
