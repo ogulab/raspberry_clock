@@ -17,4 +17,7 @@ def getTime():
     n=time.strftime('%I')+time.strftime('%M')
     timeList=list(n)
     return timeList
+
+def setAmPm
+    ap =time.strftime('%p')
     
