@@ -11,7 +11,7 @@ for x in xrange(5):
     print('消灯')
     time.sleep(2)
 GPIO.cleanup()
-
+print('終了')
 
 def getTime():
     n=time.strftime('%I')+time.strftime('%M')
@@ -22,4 +22,3 @@ def setAmPm
     ap =time.strftime('%p')
     if ap 'AM'
         turnlight(20,1)
-        
