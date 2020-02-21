@@ -20,5 +20,9 @@ def getTime():
 
 def setAmPm
     ap =time.strftime('%p')
-    if ap 'AM'
+    if ap =='AM':
         turnlight(20,1)
+        turnLight(21,0)
+    else:
+        turnLigut(20,0)
+        turnLight(21,1)
