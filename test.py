@@ -26,3 +26,6 @@ def setAmPm
     else:
         turnLigut(20,0)
         turnLight(21,1)
+
+def switchLight(gpio,number):
+    GPIO.setup(gpio,GPIO.OUUT)
