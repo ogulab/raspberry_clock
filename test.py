@@ -31,4 +31,6 @@ def switchLight(gpio,number):
     GPIO.setup(gpio,GPIO.OUUT)
     if number == 0 :
         GPIO.output(gpio,GPIO.HIGH)
+    else:
+        GPIO.output(gpio,GPIO.LOW)
         
