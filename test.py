@@ -33,4 +33,7 @@ def switchLight(gpio,number):
         GPIO.output(gpio,GPIO.HIGH)
     else:
         GPIO.output(gpio,GPIO.LOW)
+
+def lightNumber(number,cnt):
+    
         
