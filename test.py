@@ -35,5 +35,5 @@ def switchLight(gpio,number):
         GPIO.output(gpio,GPIO.LOW)
 
 def lightNumber(number,cnt):
-    
+    segments = (11,4,23,8,7,10,18,25)
         
