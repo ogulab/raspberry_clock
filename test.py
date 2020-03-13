@@ -15,8 +15,9 @@ print('終了')
 
 
 #辞書
-books={"小説":"a","料理":"b","辞書":"c"}
+books={"3小説":"a","1料理":"b","2辞書":"c"}
 print(books["料理"])    
+print(sorted(books))
 #辞書タプ
 print(sorted(books.items()))
 
